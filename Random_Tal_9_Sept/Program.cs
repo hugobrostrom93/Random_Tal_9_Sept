@@ -13,7 +13,7 @@ Console.WriteLine(slumpTal.Next());
 // Om du vill få olika tal varje gång
 Console.WriteLine("Parametern blir random blir varje gång!");
 Random slump = new();
-Console.WriteLine(slumpTal.Next());
+Console.WriteLine(slump.Next());
 
 
 // Slumptal mellan 1-20
